@@ -1,18 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
+import Technologies from './Technologies/Technoogies';
 
-const App = () => {
+
+/* Компонент - это функция, которая возвращает JSX РАЗМЕТКУ */
+const App = function () {
   return (
-    <div className="App">
-      Simple HTML
-      <ul className="listing">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
+    <div>
+      <Header />
+      <Technologies />
     </div>
   )
 }
 
+
+
+
 export default App;
+ 
